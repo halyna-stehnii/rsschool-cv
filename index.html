@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5e23f6afcb.js" crossorigin="anonymous"></script>
+  <title>Halyna Stehnii - CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="nav-sticky">
+    <div class="nav-container">
+      <nav>
+        <ul class="nav container">
+          <li><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li><a href="#summary" class="nav-link">Summary</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#code" class="nav-link">Code</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+  <header>
+
+    <div class="header-container container">
+      <div class="avatar">
+        <img src="photo.jpg" alt="photo" width="139" height="140">
+      </div>
+      <div class="desc">
+        <h1>Halyna Stehnii</h1>
+        <p>JUNIOR FRONT-END DEVELOPER</p>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container container-border section-links">
+        <h2 id="contacts">Contacts</h2>
+        <ul>
+          <li><i class="far fa-envelope"></i>E-mail: <a
+              href="mailto:galyna.stegniy@gmail.com">galyna.stegniy@gmail.com</a></li>
+          <li><i class="fab fa-skype"></i>Skype: <a href="skype:galyna.stegniy">galyna.stegniy</a></li>
+          <li><i class="fab fa-telegram-plane"></i>Telegram: <a href="http://t.me/GalynaStegniy">@GalynaStegniy</a></li>
+          <li><i class="fab fa-discord"></i>Discord: <a
+              href="https://discordapp.com/users/513378072754651136">Suzy#7958</a></li>
+          <li><i class="fab fa-github-alt"></i>Github: <a href="https://github.com/galyna-stegniy">galyna.stegniy</a>
+          </li>
+          <li><i class="fas fa-map-marker-alt"></i>Kharkiv, Ukraine</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container container-border">
+        <h2 id="summary">Summary</h2>
+        <p>I'm working as a content manager. My goal is to master Web Development and create some projects for my
+          portfolio.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container container-border">
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li><i class="far fa-circle"></i>HTML</li>
+          <li><i class="far fa-circle"></i>CSS</li>
+          <li><i class="far fa-circle"></i>Javascript</li>
+          <li><i class="far fa-circle"></i>Figma</li>
+          <li><i class="far fa-circle"></i>Git</li>
+          <li><i class="far fa-circle"></i>Github</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container container-border">
+        <h2 id="code">Code</h2>
+
+        <pre>
+        function flatten(arr) {
+          return arr.reduce((flattenedArray, el) => {
+            if (Array.isArray(el)) {
+              return flattenedArray.concat(flatten(el));
+            }
+          return flattenedArray.concat(el);
+        }, []);
+      }
+        </pre>
+
+      </div>
+    </section>
+    <section>
+      <div class="container container-border section-list">
+        <h2 id="courses">Courses</h2>
+        <ul>
+          <li><i class="far fa-circle"></i><a href="http://learn.javascript.ru/" target="blanck">learn.javascript.ru</a>
+          </li>
+          <li><i class="far fa-circle"></i><a href="http://eloquentjavascript.net/"
+              target="blanck">eloquentjavascript.net</a></li>
+          <li><i class="far fa-circle"></i><a href="https://training.epam.ua/" target="blanck">EPAM JavaScript online
+              course</a></li>
+          <li><i class="far fa-circle"></i><a href="http://rs.school/" target="blanck">The Rolling Scopes School
+              course</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container container-border section-list">
+        <h2 id="projects">Projects</h2>
+        <ul>
+          <li><i class="far fa-circle"></i><a href="http://github.com/galyna-stegniy/rsschool-cv"
+              target="blanck">rsschool-cv</a></li>
+          <li><i class="far fa-circle"></i><a href="http://github.com/galyna-stegniy/towel-sort"
+              target="blanck">towel-sort</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container container-border">
+        <h2 id="education">Education</h2>
+        <p>National Aerospace University «Kharkiv Aviation Institute»</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2 id="english">English</h2>
+        <p>B1 - Pre-Intermediate</p>
+        <p>My English skills is enough to listen, read and understend. I have little practice in speaсking.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-container container">
+        <div>
+          © 2021 by <a href="https://github.com/galyna-stegniy" target="blanck">Halyna Stehnii</a>
+        </div>
+        <a href="http://rs.school/" target="blanck" class="rss-logo"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
