@@ -1,9 +1,10 @@
 
 # Halyna Stehnii
-Kharkiv, Ukraine
+Poznań, Poland
 ## Contact Info
 * E-mail: galyna.stegniy@gmail.com
 * Skype: galyna.stegniy
+* Discord: Suzy#7958
 ## Summary 
 I'm working as a content manager. My goal is to master Web Development and create some projects for my portfolio.
 ## Skills
