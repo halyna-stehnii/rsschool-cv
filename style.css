@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color:#463d31;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container-border {
+  border-bottom: 2px solid #EB8A3E;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  background-color: #EB8A3E;
+}
+
+.nav-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  padding: 0 12px;
+  font-size: 20px;
+  line-height: 50px;
+  color: #FFF;
+  cursor: none;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 5px;
+}
+
+.avatar img {
+  border-radius: 25%;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+
+i {
+  color: #EB8A3E;
+  width: 25px;
+}
+
+.section-links a {
+  color: #EB8A3E;
+  font-weight: 500;
+}
+
+.section-list a {
+  color: #463d31;
+}
+
+.footer {
+  background-color: #EB8A3E;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer-container a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rss-logo {
+  background-image: url("rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 121px;
+  height: 45px;
+  cursor: pointer;
+}
+
+/* https://css-tricks.com/hash-tag-links-padding/ - doesn't work with small screens */
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
