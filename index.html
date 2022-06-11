@@ -10,10 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/5e23f6afcb.js" crossorigin="anonymous"></script>
-  <title>Halyna Stehnii - CV</title>
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
   <link rel="icon" href="./assets/favicon.ico">
   <link rel="stylesheet" href="style.css">
+  <title>Halyna Stehnii - CV</title>
 </head>
 
 <body>
@@ -84,18 +85,18 @@
     <section>
       <div class="container container-border">
         <h2 id="code">Code</h2>
-
         <pre>
+          <code class="javascript">
         function flatten(arr) {
           return arr.reduce((flattenedArray, el) =&gt; {
             if (Array.isArray(el)) {
               return flattenedArray.concat(flatten(el));
             }
           return flattenedArray.concat(el);
-        }, []);
-      }
+          }, []);
+        }
+          </code>
         </pre>
-
       </div>
     </section>
     <section>
@@ -148,5 +149,8 @@
       </div>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/5e23f6afcb.js" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 </html>
